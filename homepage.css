@@ -1,0 +1,89 @@
+body{
+    background-color: #F2B138;
+}
+
+.grid-container {
+  display: grid;
+  background-color: #8dd4b2;
+  padding: 10px;
+}
+.Container-fluid{
+  background-color: #f2f2f2;
+  border: 1px solid #8dd4b2;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  box-shadow: #8dd4b2;
+  }
+
+  .homepic{
+   border: 5px solid black;
+   } 
+
+  .navbar {
+  overflow: hidden;
+  background-color: #8dd4b2;
+}
+
+.col-md-6{
+  
+ .container{
+  border: 2px solid gray;
+ }
+
+}
+
+.Container-fluid a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.company{
+  padding: 14px 16px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #ffffcc;
+  color: black;
+}
+
+pictures{
+  border
+  padding: 14px 16px;
+  margin: 5px;
+  border: 1px solid ;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+
+}
+
+.bar{
+  width: 100px;
+  height: 50px;
+  background: #9ad7a4;
+  transition: width 3s;
+  transition-delay: 1s;
+}
+
+.bar:hover {
+  width: 98vw;
